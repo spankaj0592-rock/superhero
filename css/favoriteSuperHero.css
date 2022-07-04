@@ -1,0 +1,16 @@
+
+.navbar{
+    text-align: center; 
+    margin-left: 450px;  
+ 
+}
+.navbar a:hover{
+color: red;
+}
+.navbar a:visited{
+    color: green;
+}
+h3{
+    text-align: center;
+    position:relative;
+}

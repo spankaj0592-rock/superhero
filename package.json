@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "marvel-api": "^1.1.0",
+    "md5": "^2.3.0"
+  },
+  "name": "superhero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Singh",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

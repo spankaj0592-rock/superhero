@@ -1,0 +1,102 @@
+
+
+.navbar{
+    text-align: center; 
+    margin-left: 450px;  
+ 
+}
+#container h3{
+  
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+  
+}
+.navbar a:hover{
+color: red;
+}
+.navbar a:visited{
+    color: green;
+}
+.input-box{
+
+    display: block;
+    text-align: center;
+    position:relative;
+    margin-left: 200px;
+    margin-right:200px ;
+    margin-top: 100px;  
+    
+}
+.input-box button{
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+
+main {
+    margin: 10px;
+}
+
+#search {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#search-input {
+    width: 100%;
+    height: 30px;
+}
+
+#search-button {
+    width: 100px;
+    padding: 6px;
+    border: 1px solid black;
+    height: 36px;
+}
+
+#display-superhero, #display-fav-superhero{
+    /* width: 99%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#superhero-box {
+    margin: 20px;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(236, 16, 16, 0.733);
+    box-shadow: 0 0 10px black;
+    overflow: auto;
+
+}
+
+
+
+#superhero-box span{
+    
+    font-size: 1.75rem;
+}
+
+#superhero-image{
+    width: 100px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+#superhero-image img{
+    height: 100%;
+}
+
+
+#loading{
+    margin: auto;
+    text-align: center;
+}
