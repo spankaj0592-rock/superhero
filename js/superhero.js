@@ -4,7 +4,7 @@
 
 
 // fetch Super hero wile typing on search bar
-document.addEventListener('keyup', fetchHero);
+document.addEventListener('keyup', findhero);
 
 // add fav function
 function addFav(superHeroID){
@@ -29,7 +29,7 @@ function removeFav(superHeroID){
 }
 
 // fetch Super Hero using SuperHero Api
-async function fetchHero() {
+async function findHero() {
     //get search input
     let name = document.getElementById('search-input').value;
 
@@ -151,7 +151,7 @@ async function fetchHero() {
 }
 
 
-fetchHero();
+findHero();
 
 
 

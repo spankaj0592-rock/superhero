@@ -12,11 +12,9 @@
     text-align: center;
   
 }
-.navbar a:hover{
-color: red;
-}
-.navbar a:visited{
-    color: green;
+
+.navbar a{
+    color: rgb(0, 0, 0);
 }
 .input-box{
 

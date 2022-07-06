@@ -4,13 +4,19 @@
     margin-left: 450px;  
  
 }
-.navbar a:hover{
-color: red;
-}
-.navbar a:visited{
-    color: green;
-}
+
+
 h3{
     text-align: center;
     position:relative;
+}
+#display-fav-superhero{
+    height: 100px;
+    width: 200px;  
+    display: flex;
+    float:right;
+    margin-right: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
