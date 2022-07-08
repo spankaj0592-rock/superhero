@@ -6,10 +6,10 @@
   },
   "name": "superhero",
   "version": "1.0.0",
-  "main": "superHero.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "superHero.html"
+    "start": "nodemon superHero.html"
   },
   "author": "Pankaj Singh",
   "license": "ISC",
